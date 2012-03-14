@@ -9,7 +9,8 @@ group1:
   component_name: base
   buttons: [[stop,trigger,stop],
     [init,trigger,init],
-    [recover,trigger,recover]]
+    [recover,trigger,recover],
+    [rel,move_base_rel,asd]]
 group2:
   group_name: torso
   component_name: torso
