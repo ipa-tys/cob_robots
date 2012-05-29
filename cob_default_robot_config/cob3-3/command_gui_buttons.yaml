@@ -7,7 +7,7 @@
 group1:
   group_name: base
   component_name: base
-  buttons: [[stop,trigger,stop],
+  buttons: [[stop,stop,omni],
     [init,trigger,init],
     [recover,trigger,recover],
     [rel,move_base_rel,asd]]
@@ -38,8 +38,6 @@ group4:
   group_name: arm settings
   component_name: arm
   buttons: [[stop,trigger,stop],
-    [init,trigger,init],
-    [recover,trigger,recover],
     [undefined mode,mode,undefined],
     [position mode,mode,position],
     [velocity mode,mode,velocity],
@@ -70,6 +68,7 @@ group7:
   component_name: sdh
   buttons: [[stop,trigger,stop],
     [init,trigger,init],
+    [recover,trigger,recover],
     [home,move,home],
     [cyl. closed,move,cylclosed],
     [cyl. open,move,cylopen],
